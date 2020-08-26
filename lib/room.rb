@@ -7,7 +7,7 @@ class Room
     @category = category
     @length   = length
     @width    = width
-    @painted  = false 
+    @painted  = false
   end
 
   def area
@@ -18,4 +18,8 @@ class Room
     @painted == true
   end
 
+  def paint
+    @painted = true
+  end
+  
 end
